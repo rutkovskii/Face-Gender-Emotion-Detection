@@ -1,7 +1,5 @@
 FROM fastdotai/fastai:2020-10-02
 
-RUN useradd fastai-user 
-
 RUN apt-get update 
 
 # RUN apt-get -y install nano\
