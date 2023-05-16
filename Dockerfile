@@ -1,4 +1,4 @@
-FROM fastdotai/fastai
+FROM fastdotai/fastai:2020-10-02
 
 RUN useradd fastai-user 
 
@@ -14,6 +14,4 @@ COPY . /fged
 
 RUN pip install -r requirements.txt
 
-CMD [
-    "python" , "functions.py"
-]
+CMD ["python" , "functions.py"]
