@@ -1,7 +1,3 @@
-
-
-from cam import gstreamer_pipeline, gstreamer_pipeline_hard
-
 from time import sleep
 import cv2
 import dlib
@@ -49,7 +45,6 @@ class EmotionClassifier:
 if __name__ == "__main__":
     # Create a VideoCapture object to capture the video from the camera
     cap = cv2.VideoCapture(0)
-	#cap = cv2.VideoCapture(gstreamer_pipeline(), cv2.CAP_GSTREAMER)
 
     # Check if the camera is opened successfully
     if not cap.isOpened():
