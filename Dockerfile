@@ -1,6 +1,6 @@
 FROM fastdotai/fastai:2020-10-02
 
-RUN apt-get update 
+RUN #!/bin/bash apt-get update 
 
 # RUN apt-get -y install nano\
 #    graphviz \
@@ -10,6 +10,6 @@ WORKDIR /fged
 
 COPY . /fged
 
-RUN pip install -r requirements.txt
+RUN #!/bin/bash pip install -r requirements.txt
 
 CMD ["python" , "functions.py"]
