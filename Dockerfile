@@ -1,4 +1,6 @@
-FROM fastai/fastai
+# FROM fastai/
+
+FROM symeneses/fastai
 
 RUN #!/bin/bash apt-get update 
 
