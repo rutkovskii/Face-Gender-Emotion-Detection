@@ -1,4 +1,4 @@
-FROM fastdotai/fastai:2020-10-02
+FROM fastai/fastai
 
 RUN #!/bin/bash apt-get update 
 
