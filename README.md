@@ -1,5 +1,11 @@
 # Face-Gender-Emotion-Detection
-Face-Gender-Emotion-Detection on Nvidia Jetson Nano
 
+To run the project, first install all dependencies by running:
+```
+pip install -r requirements.txt
+```
 
-ghp_6DJejLsbKarFYsJju5Ix6lgkqcWJIO0XS8
+Then, run:
+```
+python functions_mac.py
+```
